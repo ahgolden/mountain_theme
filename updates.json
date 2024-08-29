@@ -1,0 +1,12 @@
+{
+	"addons" : {
+		"snowy_mountain@adinathemes.com" : {
+			"updates" : [
+				{
+					"version" : "1.2",
+					"update_link" : "https://github.com/ahgolden/mountain_theme/blob/main/mountain_theme.xpi"
+				}
+			]
+		}
+	}
+}
