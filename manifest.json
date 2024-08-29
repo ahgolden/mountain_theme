@@ -1,9 +1,17 @@
 {
   "description": "Theme using an image of a mountain",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "mountain",
   "version": "1.1",
- 
+  "homepage_url" : "https://github.com/ahgolden/mountain_theme",
+  "browser_specific_settings" : {
+    "gecko" : {
+      "id" : "snowy_mountain@adinathemes.com",
+      "update_url" : "https://github.com/ahgolden/mountain_theme/blob/main/updates.json"
+
+    }
+    
+  },
   "theme": {
     "images": {
       "additional_backgrounds": ["mountain.png"]
@@ -13,13 +21,16 @@
       "color_scheme" : "light"
     },
     "colors": {
-      "tab_background_text": "#807AAA",
+      "tab_background_text": "#223B35",
+      "tab_background_separator" : "rgba(34, 59, 53, 0.6)",
       "tab_line" : "#647048",
       "tab_selected" : "rgba(244, 242, 247,0.6)",
       "tab_text": "#464565",
       "icons" : "#223B35",
       "popup" : "#807AAA",
       "popup_text" : "#F4F2F7",
+      "popup_highlight" : "rgba(34, 59, 53, 0.6)",
+      "popup_highlight_text" : "#F4F2F7",
       "toolbar" : "rgba(244, 242, 247, 0.45)",
       "toolbar_field" : "#F4F2F7",
       "toolbar_field_highlight" : "#807AAA",
@@ -27,8 +38,9 @@
       "toolbar_field_text" : "#223B35",
       "toolbar_field_border" : "#F4F2F7",
       "toolbar_field_border_focus" : "#647048",
-      "bookmark_text" : "#464565",
-      "button_background_hover" : "rgba(128, 122, 170, 0.7)",
+      "bookmark_text" : "rgb(8, 80, 23)",
+      // "button_background_hover" : "rgba(128, 122, 170, 0.7)",
+      "button_background_hover" : "rgba(244, 242, 247,0.7)",
       "button_background_active" : "rgba(128, 122, 170, 0.3)",
       "icons_attention" : "#223B35", 
       "sidebar" : "#807AAA",
